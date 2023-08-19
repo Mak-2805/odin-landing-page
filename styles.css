@@ -148,3 +148,38 @@ ul{
     align-items: end;
 }
 
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action{
+    width: 1200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 80px 0;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 45px 150px;
+}
+
+.call-to-action .left-text{
+    color: white;
+
+}
+
+.call-to-action .left-text .title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action button{
+    color: white;
+    border: white 2px solid;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 0 25px;
+}
