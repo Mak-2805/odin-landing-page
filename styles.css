@@ -44,17 +44,19 @@ ul{
 .hero-container{
     display: flex;
     align-items: start;
+    justify-content: space-between;
 }
 
 .hero-text{
     flex-wrap: wrap;
+    width: 400px;
 }
 
 .hero-text h1{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 0px;
 }
 
@@ -65,7 +67,7 @@ ul{
 
 .hero-image img{
     flex-shrink: 0;
-    height: 200px;
+    height: 250px;
     width: auto;
 }
 .hero-text button{
