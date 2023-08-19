@@ -80,3 +80,35 @@ ul{
     padding: 5px 20px;
 }
 
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.second-container h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    border: #3882F6 solid 2px;
+}
